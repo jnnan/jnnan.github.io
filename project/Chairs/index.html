@@ -157,27 +157,7 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
             <p>
-                Fine-grained capturing of 3D Human-Object Interactions (HOIs) boosts human
-                activity understanding and facilitates downstream visual tasks, including action
-                recognition, holistic scene reconstruction, and human motion synthesis. Despite
-                its significance, most existing works assume that humans interact with rigid ob5 jects, limiting their scope. 
-            </p>
-                <p>
-                In this paper, we address the challenging problem
-                of Articulated Human-Object Interaction (A-HOI), wherein whole human bod7 ies interact with articulated objects, whose parts are connected by prismatic or
-                revolute joints. We present Capturing Human and Articulated-object InteRac9 tionS (CHAIRS), a large-scale motion-captured A-HOI dataset, consisting of 16.2
-                hours of versatile interactions between 46 participants and 74 rigid and articulated
-                sittable objects. CHAIRS provides 3D meshes of both humans and articulated
-                objects during the entire interactive process, as well as the realistic and physically
-                plausible part-level interactions.
-                </p>
-                <p>
-                We show the value of CHAIRS with a new chal14 lenging task: Kinematic-Agnostic Human and Object Pose Estimation (KA-HOPE).
-                Leveraging the interactions between human and object parts, we devise the very
-                first model to tackle the joint estimation of human and object poses during interac17 tions, which significantly outperforms the baseline models and shows improved
-                generalizability across kinematic structures. We hope CHAIRS will promote the
-                community toward more fine-grained interaction understanding between humans
-                and 3D scenes.
+                Fine-grained capturing of 3D HOI boosts human activity understanding and facilitates downstream visual tasks, including action recognition, holistic scene reconstruction, and human motion synthesis. Despite its significance, existing works mostly assume that humans interact with rigid objects using only a few body parts, limiting their scope. In this paper, we address the challenging problem of f-AHOI, wherein the whole human bodies interact with articulated objects, whose parts are connected by movable joints. We present CHAIRS, a large-scale motion-captured \ac{fahoi} dataset, consisting of \NHOURS hours of versatile interactions between \NSUBJ participants and \NOBJ articulated and rigid sittable objects. \ac{dataset} provides 3D meshes of both humans and articulated objects during the entire interactive process, as well as realistic and physically plausible full-body interactions. We show the value of CHAIRS with object pose estimation. By learning the geometrical relationships in HOI, we devise the very first model that leverage human pose estimation to tackle the estimation of articulated object poses and shapes during whole-body interactions. Given an image and an estimated human pose, our model first reconstructs the pose and shape of the object, then optimizes the reconstruction according to a learned interaction prior. Under both evaluation settings (e.g., with or without the knowledge of objects' geometries/structures), our model significantly outperforms baselines. We hope CHAIRS will promote the community towards finer-grained interaction understanding. We will make the data/code publicly available.
     
             </p>
             </div>
