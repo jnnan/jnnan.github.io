@@ -37,21 +37,21 @@
                 <h1 class="title is-1 publication-title">AHOI: <br>Articulated Human-Object Interaction</h1>
                 <div class="is-size-5 publication-authors">
                   <span class="author-block">
-                    <a href="https://jnnan.github.io//">Nan Jiang</a>&emsp;</span>
+                    <a href="">Nan Jiang</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">Tengyu Liu</a>&emsp;</span>
+                    <a href="">Tengyu Liu</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">Zhexuan Cao</a>&emsp;</span>
+                    <a href="">Zhexuan Cao</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">Jieming Cui</a>&emsp;</span>
+                    <a href="">Jieming Cui</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">Yixin Chen</a>&emsp;</span>
+                    <a href="">Yixin Chen</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">He Wang</a>&emsp;</span>
+                    <a href="">He Wang</a>&emsp;</span>
                   <span class="author-block">
                     <a href="https://yzhu.io">Yixin Zhu</a>&emsp;</span>
                   <span class="author-block">
-                    <a href="https://www.cs.cmu.edu/~dpathak/">Siyuan Huang</a>&emsp;</span>
+                    <a href="">Siyuan Huang</a>&emsp;</span>
       
                 </div>
       
@@ -190,9 +190,7 @@
                     <h2 class="title is-4"><span style="background-color:  #424949; color: white; border-radius: 7px; padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:5px;"> Method Overview</span></h2>
                     <img src="static/images/method.png" height="100%" width="100%"/><br/><br/>
                     <h2 class="subtitle has-text-justified">
-                        <span class="dnerf" margin-bottom: 0px;></span> The overall architecture of the i-HOPE model— includes an object branch (in blue) and a
-                        human branch (in green) to jointly predict the articulated object pose and human shape. We utilize attention
-                        mechanisms inside the model (in red) to facilitate interactions between these two branches.
+                        <span class="dnerf" margin-bottom: 0px;></span> The overall architecture of our model - The reconstruction model uses the predicted voxelized human to guide the pose estimation of the interacting object. We further regress the root 6D pose of the object using the image feature and the SMPL-X parameters. We utilize both predictions and an interaction prior to optimize the final estimated pose.
                     </h2>
                 </center>
             </div>
@@ -263,12 +261,16 @@
                 <center>
                     <h2 class="title is-4"><span style="background-color:  #424949; color: white; border-radius: 7px; padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:5px;"> Method Overview</span></h2>
                     <img src="static/images/supp-qual-2x-100.jpg" height="100%" width="100%"/><br/><br/>
+                    <h2 class="subtitle has-text-justified">
+                        <span class="dnerf" margin-bottom: 0px;></span> The optimization results of our method on CHAIRS dataset.
+                    </h2>
                     <img src="static/images/supp-wild-2x-100.jpg" height="100%" width="100%"/><br/><br/>
+                    <h2 class="subtitle has-text-justified">
+                        <span class="dnerf" margin-bottom: 0px;></span> The optimization results of our method on in-the-wild images with a person sitting in a sitable furniture.
+                    </h2>
                     <img src="static/images/supp-behave-2x-100.jpg" height="100%" width="100%"/><br/><br/>
                     <h2 class="subtitle has-text-justified">
-                        <span class="dnerf" margin-bottom: 0px;></span> The overall architecture of the i-HOPE model— includes an object branch (in blue) and a
-                        human branch (in green) to jointly predict the articulated object pose and human shape. We utilize attention
-                        mechanisms inside the model (in red) to facilitate interactions between these two branches.
+                        <span class="dnerf" margin-bottom: 0px;></span> The optimization results of our method on <a href="https://virtualhumans.mpi-inf.mpg.de/behave">BEHAVE</a> dataset.
                     </h2>
                 </center>
             </div>
