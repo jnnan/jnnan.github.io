@@ -34,7 +34,7 @@
               <p style="text-align:center">
                 <name>Nan Jiang&emsp;|&emsp;蒋楠</name>
               </p>
-              <p>I'm a Ph.D. student at Institute for AI, Peking University. I'm a member of the <a href="https://pku.ai/", target="_blank">CoRe Lab</a>, advised by Prof. <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>. I am currently an intern at Beijing Institute for General Artificial Intelligence (BIGAI). I received my M.Sc. from Department of Computing at Imperial College London.
+              <p>I'm a Ph.D. student in Institute for AI, Peking University. I'm a member of the <a href="https://pku.ai/", target="_blank">CoRe Lab</a>, advised by Prof. <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>. I am currently an intern at Beijing Institute for General Artificial Intelligence (BIGAI). I received my M.Sc. from Department of Computing at Imperial College London.
               <br>
               <br>
               <br>
@@ -74,47 +74,6 @@
 
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" cellspacing="0" cellpadding="20">
-          
-          <tr>
-            <td width="33%" valign="top"><a href="images/phyrecon/teaser.png"><img src="images/phyrecon/teaser.png" width="100%" style="border-style: none"></a>
-            <td width="67%" valign="top">
-              <p><a href="https://arxiv.org/pdf/2404.16666", target="_blank" id="">
-              <heading>PhyRecon: Physically Plausible Neural Scene Reconstruction</b></heading></a>&nbsp; <img src="images/new.gif" alt="fast-texture" width="25" height="11">
-              <br>
-              <a href="https://dali-jack.github.io/Junfeng-Ni", target="_blank">Junfeng Ni*</a>,
-              <a href="https://yixchen.github.io/", target="_blank">Yixin Chen*</a>,
-              <a href="https://phyrecon.github.io/", target="_blank">Bohan Jing</a>,
-              <strong>Nan Jiang</strong>,
-              <a href="https://binwangbfa.github.io/", target="_blank">Bin Wang</a>,
-              <a href="https://daibopku.github.io/daibo/", target="_blank">Bo Dai</a>,
-              <a href="https://xiaoyao-li.github.io/", target="_blank">Puhao Li</a>,
-              <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>,
-              <a href="https://zhusongchun.net/", target="_blank">Songchun Zhu</a>,
-              <a href="https://siyuanhuang.com/", target="_blank">Siyuan Huang</a>
-              <br>
-              <em>arXiv</em>, 2024
-              <br></p>
-              <div class="paper" id="phyrecon">
-                <a onmouseover="showblock('phyrecon_abs')" onmouseout="hideblock('phyrecon_abs')">abstract</a> /
-                <a href="https://arxiv.org/pdf/2404.16666" target="_blank">paper</a> /
-                <a href="https://github.com/PhyRecon/PhyRecon", target="_blank">code</a> /
-                <a href="https://phyrecon.github.io/", target="_blank">project page</a> /
-                <a shape="rect" href="javascript:togglebib('phyrecon')" class="togglebib">bibtex</a>
-                    
-                <p align="justify"> <i id="phyrecon_abs">Neural implicit representations have gained popularity in multi-view 3D reconstruction. However, most previous work struggles to yield physically plausible results, limiting their utility in domains requiring rigorous physical accuracy, such as embodied AI and robotics. This lack of plausibility stems from the absence of physics modeling in existing methods and their inability to recover intricate geometrical structures. In this paper, we introduce PhyRecon, the first approach to leverage both differentiable rendering and differentiable physics simulation to learn implicit surface representations. PhyRecon features a novel differentiable particle-based physical simulator built on neural implicit representations. Central to this design is an efficient transformation between SDF-based implicit representations and explicit surface points via our proposed Surface Points Marching Cubes (SP-MC), enabling differentiable learning with both rendering and physical losses. Additionally, PhyRecon models both rendering and physical uncertainty to identify and compensate for inconsistent and inaccurate monocular geometric priors. This physical uncertainty further facilitates a novel physics-guided pixel sampling to enhance the learning of slender structures. By integrating these techniques, our model supports differentiable joint modeling of appearance, geometry, and physics. Extensive experiments demonstrate that PhyRecon significantly outperforms all state-of-the-art methods. Our results also exhibit superior physical stability in physical simulators, with at least a 40% improvement across all datasets, paving the way for future physics-based applications.</i></p>
-                <pre xml:space="preserve"><bibtex>@article{ni2024phyrecon,
-  title={PhyRecon: Physically Plausible Neural Scene Reconstruction}, 
-  author={Junfeng Ni and Yixin Chen and Bohan Jing and Nan Jiang and Bin Wang and Bo Dai and Puhao Li and Yixin Zhu and Song-Chun Zhu and Siyuan Huang},
-  journal={arXiv preprint arXiv:2404.16666},
-  year={2024}
-}
-}</bibtex></pre>
-                <p>
-                   we introduce PhyRecon, the first approach to leverage both differentiable rendering and differentiable physics simulation to learn implicit surface representations.
-                </p>
-              </div>
-            </td>
-          </tr> 
 
         </table>
 
@@ -129,9 +88,53 @@
         </table>
 
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        </table>
+<!--        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">-->
+<!--        </table>-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" cellspacing="0" cellpadding="20">
+
+          <tr>
+            <td width="33%" valign="top"><a href="images/lingo/teaser.webp"><img src="images/lingo/teaser.webp" width="100%" style="border-style: none"></a>
+            <td width="67%" valign="top">
+              <p><a href="https://arxiv.org/pdf/2410.03187", target="_blank" id="">
+              <heading>Autonomous Character-Scene Interaction Synthesis from Text Instruction</b></heading></a>&nbsp; <img src="images/new.gif" alt="fast-texture" width="25" height="11">
+              <br>
+                <strong>Nan Jiang*</strong>,
+                <a href="https://pku.ai/author/zimo-he/", target="_blank">Zimo He*</a>,
+                <a href="", target="_blank">Zi Wang</a>,
+                <a href="https://pku.ai/author/hongjie-li/", target="_blank">Hongjie Li</a>,
+                <a href="https://yixchen.github.io/", target="_blank">Yixin Chen</a>,
+                <a href="https://siyuanhuang.com/", target="_blank">Siyuan Huang</a>,
+                <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>
+              <br>
+              <em>SIGGRAPH Asia</em>, 2024
+              <br></p>
+              <div class="paper" id="lingo">
+                <a onmouseover="showblock('lingo_abs')" onmouseout="hideblock('lingo_abs')">abstract</a> /
+                <a href="https://arxiv.org/pdf/2410.03187" target="_blank">paper</a> /
+<!--                <a href="https://lingomotions.com/", target="_blank">code to be released</a> /-->
+                <a href="https://lingomotions.com/", target="_blank">project page</a> /
+                <a href="https://youtu.be/-Uz6lGLdTy4", target="_blank">demo video</a> /
+                <a shape="rect" href="javascript:togglebib('lingo')" class="togglebib">bibtex</a>
+
+                <p align="justify"> <i id="lingo_abs">Synthesizing human motions in 3D environments, particularly those with complex activities such as locomotion, hand-reaching, and Human-Object Interaction (HOI), presents substantial demands for user-defined waypoints and stage transitions. These requirements pose challenges for current models, leading to a notable gap in automating the animation of characters from simple human inputs. This paper addresses this challenge by introducing a comprehensive framework for synthesizing multi-stage scene-aware interaction motions directly from a single text instruction and goal location. Our approach employs an auto-regressive diffusion model to synthesize the next motion segment, along with an autonomous scheduler predicting the transition for each action stage. To ensure that the synthesized motions are seamlessly integrated within the environment, we propose a scene representation that considers the local perception both at the start and the goal location. We further enhance the coherence of the generated motion by integrating frame embeddings with language input. Additionally, to support model training, we present a comprehensive motion-captured (MoCap) dataset comprising 16 hours of motion sequences in 120 indoor scenes covering 40 types of motions, each annotated with precise language descriptions. Experimental results demonstrate the efficacy of our method in generating high-quality, multi-stage motions closely aligned with environmental and textual conditions.</i></p>
+                <pre xml:space="preserve"><bibtex>@misc{jiang2024autonomouscharactersceneinteractionsynthesis,
+      title={Autonomous Character-Scene Interaction Synthesis from Text Instruction},
+      author={Nan Jiang and Zimo He and Zi Wang and Hongjie Li and Yixin Chen and Siyuan Huang and Yixin Zhu},
+      year={2024},
+      eprint={2410.03187},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.03187},
+}
+}</bibtex></pre>
+                <p>
+                   This paper introduces a framework for synthesizing multi-stage scene-aware interaction motions, and a comprehensive language-annotated MoCap dataset (LINGO).
+                </p>
+              </div>
+            </td>
+          </tr>
+
+
           <tr>
             <td width="33%" valign="top"><a href="images/trumans/cvpr.gif"><img src="images/trumans/cvpr.gif" width="100%" style="border-style: none"></a>
             <td width="67%" valign="top">
@@ -171,10 +174,52 @@
                 </p>
               </div>
             </td>
-          </tr> 
+          </tr>
+
 
           <tr>
-            <td width="33%" valign="top"><a href="images/chairs/teaser.png"><img src="images/chairs/teaser.png" width="100%" style="border-style: none"></a>
+            <td width="33%" valign="top"><a href="images/phyrecon/teaser.png"><img src="images/phyrecon/teaser.png" width="100%" style="border-style: none"></a>
+            <td width="67%" valign="top">
+              <p><a href="https://arxiv.org/pdf/2404.16666", target="_blank" id="">
+              <heading>PhyRecon: Physically Plausible Neural Scene Reconstruction</b></heading></a>&nbsp; <img src="images/new.gif" alt="fast-texture" width="25" height="11">
+              <br>
+              <a href="https://dali-jack.github.io/Junfeng-Ni", target="_blank">Junfeng Ni*</a>,
+              <a href="https://yixchen.github.io/", target="_blank">Yixin Chen*</a>,
+              <a href="https://phyrecon.github.io/", target="_blank">Bohan Jing</a>,
+              <strong>Nan Jiang</strong>,
+              <a href="https://binwangbfa.github.io/", target="_blank">Bin Wang</a>,
+              <a href="https://daibopku.github.io/daibo/", target="_blank">Bo Dai</a>,
+              <a href="https://xiaoyao-li.github.io/", target="_blank">Puhao Li</a>,
+              <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>,
+              <a href="https://zhusongchun.net/", target="_blank">Songchun Zhu</a>,
+              <a href="https://siyuanhuang.com/", target="_blank">Siyuan Huang</a>
+              <br>
+              <em>NeurIPS</em>, 2024
+              <br></p>
+              <div class="paper" id="phyrecon">
+                <a onmouseover="showblock('phyrecon_abs')" onmouseout="hideblock('phyrecon_abs')">abstract</a> /
+                <a href="https://arxiv.org/pdf/2404.16666" target="_blank">paper</a> /
+                <a href="https://github.com/PhyRecon/PhyRecon", target="_blank">code</a> /
+                <a href="https://phyrecon.github.io/", target="_blank">project page</a> /
+                <a shape="rect" href="javascript:togglebib('phyrecon')" class="togglebib">bibtex</a>
+
+                <p align="justify"> <i id="phyrecon_abs">Neural implicit representations have gained popularity in multi-view 3D reconstruction. However, most previous work struggles to yield physically plausible results, limiting their utility in domains requiring rigorous physical accuracy, such as embodied AI and robotics. This lack of plausibility stems from the absence of physics modeling in existing methods and their inability to recover intricate geometrical structures. In this paper, we introduce PhyRecon, the first approach to leverage both differentiable rendering and differentiable physics simulation to learn implicit surface representations. PhyRecon features a novel differentiable particle-based physical simulator built on neural implicit representations. Central to this design is an efficient transformation between SDF-based implicit representations and explicit surface points via our proposed Surface Points Marching Cubes (SP-MC), enabling differentiable learning with both rendering and physical losses. Additionally, PhyRecon models both rendering and physical uncertainty to identify and compensate for inconsistent and inaccurate monocular geometric priors. This physical uncertainty further facilitates a novel physics-guided pixel sampling to enhance the learning of slender structures. By integrating these techniques, our model supports differentiable joint modeling of appearance, geometry, and physics. Extensive experiments demonstrate that PhyRecon significantly outperforms all state-of-the-art methods. Our results also exhibit superior physical stability in physical simulators, with at least a 40% improvement across all datasets, paving the way for future physics-based applications.</i></p>
+                <pre xml:space="preserve"><bibtex>@article{ni2024phyrecon,
+  title={PhyRecon: Physically Plausible Neural Scene Reconstruction},
+  author={Junfeng Ni and Yixin Chen and Bohan Jing and Nan Jiang and Bin Wang and Bo Dai and Puhao Li and Yixin Zhu and Song-Chun Zhu and Siyuan Huang},
+  journal={arXiv preprint arXiv:2404.16666},
+  year={2024}
+}
+}</bibtex></pre>
+                <p>
+                   We introduce PhyRecon, the first approach to leverage both differentiable rendering and differentiable physics simulation to learn implicit surface representations.
+                </p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="33%" valign="top"><a href="images/chairs/teaser.png"><img src="images/chairs/teaser.png" width="100%" height="120%" style="border-style: none"></a>
             <td width="67%" valign="top">
               <p><a href="https://arxiv.org/pdf/2212.10621.pdf", target="_blank" id="">
               <heading>Full-Body Articulated Human-Object Interaction</b></heading></a>
@@ -271,7 +316,9 @@ hideblock('chairs_abs');
 <script xml:space="preserve" language="JavaScript">
 hideblock('ssr_abs');
 </script>
-
+<script xml:space="preserve" language="JavaScript">
+hideblock('lingo_abs');
+</script>
 
 
 <script>
