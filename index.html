@@ -126,7 +126,7 @@
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2410.03187},
 }
-</bibtex></pre>
+}</bibtex></pre>
                 <p>
                    This paper introduces a framework for synthesizing multi-stage scene-aware interaction motions, and a comprehensive language-annotated MoCap dataset (LINGO).
                 </p>
@@ -171,6 +171,43 @@
 }</bibtex></pre>
                 <p>
                   We introduce TRUMANS, a large-scale MoCap dataset, featuring the most extensive motion-captured human-scene interactions. We further propose a novel approach for the generation of human-scene interaction sequences with arbitrary length.
+                </p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="33%" valign="top"><a href="images/chairs/fhoi.png"><img src="images/chairs/fhoi.png" width="100%" height="120%" style="border-style: none"></a>
+            <td width="67%" valign="top">
+              <p><a href="https://arxiv.org/pdf/2407.12435.pdf", target="_blank" id="">
+              <heading>F-HOI: Toward Fine-grained Semantic-Aligned 3D Human-Object Interactions</b></heading></a>
+              <br>
+
+              <a href="https://yangjie-cv.github.io/", target="_blank">Jie Yang*</a>,
+              <a href="", target="_blank">Xuesong Niu*</a>,
+                <strong>Nan Jiang*</strong>,
+              <a href="http://www.zhangruimao.site/", target="_blank">Ruimao Zhang</a>,
+              <a href="https://siyuanhuang.com/", target="_blank">Siyuan Huang</a>
+              <br>
+              <em>ECCV</em>, 2024
+              <br></p>
+              <div class="paper" id="fhoi">
+                <a onmouseover="showblock('fhoi_abs')" onmouseout="hideblock('fhoi_abs')">abstract</a> /
+                <a href="https://arxiv.org/pdf/2407.12435.pdf" target="_blank">paper</a> /
+                <a href="https://drive.google.com/file/d/1cw3ZmNs8HwirV-b_Stb1YSHBy8bFi58Y/view?usp=sharing", target="_blank">dataset</a> /
+                <a href="https://f-hoi.github.io/", target="_blank">project page</a> /
+                <a shape="rect" href="javascript:togglebib('fhoi')" class="togglebib">bibtex</a>
+
+                <p align="justify"> <i id="fhoi_abs">Existing 3D human object interaction (HOI) datasets and models simply align global descriptions with the long HOI sequence, while lacking a detailed understanding of intermediate states and the transitions between states. In this paper, we argue that fine-grained semantic alignment, which utilizes state-level descriptions, offers a promising paradigm for learning semantically rich HOI representations. To achieve this, we introduce Semantic-HOI, a new dataset comprising over 20K paired HOI states with fine-grained descriptions for each HOI state and the body movements that happen between two consecutive states. Leveraging the proposed dataset, we design three state-level HOI tasks to accomplish fine-grained semantic alignment within the HOI sequence. Additionally, we propose a unified model called F-HOI, designed to leverage multimodal instructions and empower the Multi-modal Large Language Model to efficiently handle diverse HOI tasks. F-HOI offers multiple advantages: (1) It employs a unified task formulation that supports the use of versatile multimodal inputs. (2) It maintains consistency in HOI across 2D, 3D, and linguistic spaces. (3) It utilizes fine-grained textual supervision for direct optimization, avoiding intricate modeling of HOI states. Extensive experiments reveal that F-HOI effectively aligns HOI states with fine-grained semantic descriptions, adeptly tackling understanding, reasoning, generation, and reconstruction tasks.
+                <pre xml:space="preserve"><bibtex>@article{yang2024fhoi,
+            title={F-HOI: Toward Fine-grained Semantic-Aligned 3D Human-Object Interactions},
+            author={Yang, Jie and Niu, Xuesong and Jiang, Nan and Zhang, Ruimao and Siyuan, Huang},
+            journal={European Conference on Computer Vision},
+            year={2024}
+          }
+}</bibtex></pre>
+                <p>
+                  we propose a unified model called F-HOI, designed to leverage multimodal instructions and empower the Multi-modal Large Language Model to efficiently handle diverse HOI tasks.
                 </p>
               </div>
             </td>
@@ -318,6 +355,9 @@ hideblock('ssr_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
 hideblock('lingo_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+hideblock('fhoi_abs');
 </script>
 
 
