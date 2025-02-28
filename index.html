@@ -91,6 +91,39 @@
 <!--        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">-->
 <!--        </table>-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" cellspacing="0" cellpadding="20">
+        
+        <tr>
+            <td width="33%" valign="top"><a href="images/motionrefit/motionrefit.png"><img src="images/motionrefit/motionrefit.png" width="100%" style="border-style: none"></a>
+            <td width="67%" valign="top">
+              <p><a href="", target="_blank" id="">
+              <heading>Dynamic Motion Blending for Versatile Motion Editing</b></heading></a>&nbsp; <img src="images/new.gif" alt="fast-texture" width="25" height="11">
+              <br>
+                <strong>Nan Jiang*</strong>,
+                <a href="https://pku.ai/author/hongjie-li/", target="_blank">Hongjie Li*</a>,
+                <a href="https://pku.ai/author/ziye-yuan/", target="_blank">Ziye Yuan*</a>,
+                <a href="https://pku.ai/author/zimo-he/", target="_blank">Zimo He</a>,
+                <a href="https://yixchen.github.io/", target="_blank">Yixin Chen</a>,
+                <a href="https://tengyu.ai/", target="_blank">Tengyu Liu</a>,
+                <a href="https://yzhu.io/", target="_blank">Yixin Zhu</a>,
+                <a href="https://siyuanhuang.com/", target="_blank">Siyuan Huang</a>  
+              <br>
+              <em>CVPR</em>, 2025
+              <br></p>
+              <div class="paper" id="motionrefit">
+                <a onmouseover="showblock('motionrefit_abs')" onmouseout="hideblock('motionrefit_abs')">abstract</a> /
+                <a href="" target="_blank">paper</a> /
+                <a href="", target="_blank">project page</a> /
+                <a href="", target="_blank">demo video</a> /
+                <a shape="rect" href="javascript:togglebib('motionrefit')" class="togglebib">bibtex</a>
+
+                <p align="justify"> <i id="motionrefit_abs">Existing text-guided motion editing methods suffer from limited versatility as they rely on limited training triplets of original motion, edited motion, and editing instruction, which fail to cover the vast combinations of possible edits. To address this challenge, we introduce MotionCutMix, a training technique that dynamically composes a huge amount of training triplets by blending body part motions based on editing instructions. However, this technique introduces increased randomness and potential body part incoordination in the generated motions. To model such rich distribution, we propose MotionReFit, an auto-regressive diffusion model with a motion coordinator. The auto-regressive strategy reduces the window size to facilitate convergence, while the motion coordinator mitigates the artifacts of motion composition. Our model handles both spatial and temporal edits without leveraging extra motion information or LLMs. We further contribute newly captured and re-annotated datasets for multiple motion editing tasks. Experimental results demonstrate that MotionCutMix excels in text-guided motion edits, closely adhering to textual directives. Furthermore, ablation studies reveal that the incorporation of MotionCutMix during training enhances the generalizability of the trained model, and does not significantly hinder training convergence. </i></p>
+                <pre xml:space="preserve"><bibtex>   </bibtex></pre>
+                <p>
+                   This paper introduces a universal solution for motion editing that handles various scenarios simply from textual guidance, offering both spatial and temporal editing capabilities. 
+                </p>
+              </div>
+            </td>
+          </tr>
 
           <tr>
             <td width="33%" valign="top"><a href="images/lingo/teaser.webp"><img src="images/lingo/teaser.webp" width="100%" style="border-style: none"></a>
@@ -359,7 +392,9 @@ hideblock('lingo_abs');
 <script xml:space="preserve" language="JavaScript">
 hideblock('fhoi_abs');
 </script>
-
+<script xml:space="preserve" language="JavaScript">
+hideblock('motionrefit_abs');
+</script>
 
 <script>
     const bibTex_list = document.querySelectorAll("bibtex");
