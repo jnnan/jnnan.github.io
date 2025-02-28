@@ -111,9 +111,9 @@
               <br></p>
               <div class="paper" id="motionrefit">
                 <a onmouseover="showblock('motionrefit_abs')" onmouseout="hideblock('motionrefit_abs')">abstract</a> /
-                <a href="" target="_blank">paper</a> /
+<!--                 <a href="" target="_blank">paper</a> /
                 <a href="", target="_blank">project page</a> /
-                <a href="", target="_blank">demo video</a> /
+                <a href="", target="_blank">demo video</a> / -->
                 <a shape="rect" href="javascript:togglebib('motionrefit')" class="togglebib">bibtex</a>
 
                 <p align="justify"> <i id="motionrefit_abs">Existing text-guided motion editing methods suffer from limited versatility as they rely on limited training triplets of original motion, edited motion, and editing instruction, which fail to cover the vast combinations of possible edits. To address this challenge, we introduce MotionCutMix, a training technique that dynamically composes a huge amount of training triplets by blending body part motions based on editing instructions. However, this technique introduces increased randomness and potential body part incoordination in the generated motions. To model such rich distribution, we propose MotionReFit, an auto-regressive diffusion model with a motion coordinator. The auto-regressive strategy reduces the window size to facilitate convergence, while the motion coordinator mitigates the artifacts of motion composition. Our model handles both spatial and temporal edits without leveraging extra motion information or LLMs. We further contribute newly captured and re-annotated datasets for multiple motion editing tasks. Experimental results demonstrate that MotionCutMix excels in text-guided motion edits, closely adhering to textual directives. Furthermore, ablation studies reveal that the incorporation of MotionCutMix during training enhances the generalizability of the trained model, and does not significantly hinder training convergence. </i></p>
